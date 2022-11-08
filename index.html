@@ -1,1 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
 
+    body{
+    font-family: tahoma, Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    #principal{
+        width: 1024px;
+        margin: 20px auto;
+    }
+    .header-top{
+        height: 120px;
+        background-color: brown;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .logotipo{
+        height: 100%;
+        margin: 0px 0 0 0 ;
+    }
+
+    .header-nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .header-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-nav li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 15px 0 0;
+        padding: 15px;
+    }
+
+    .header-nav a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .header-nav a:hover{
+        color:red;
+    }
+
+    .portifolio{
+        padding: 50px 100px;
+        text-align: center;
+    }
+
+    .portifolio h1{
+        font-size: 36px;
+        color: brown;
+    }
+
+    .portifolio p{
+        font-size: 16px;
+        line-height: 2;
+    }
+    .gallery{
+        color: brown;
+        padding: 0 100px 50px 100px;
+        overflow: auto;
+    }
+
+    .gallery-card{
+        width: 32%;
+        float: left;
+        text-align: center;
+    }
+
+    .imgmenu{
+    width: 200px;
+    }
+
+    .imgmain{
+    width: 1024px;
+    }
+
+    .gallery-text{
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .about{
+        background-color: brown;
+        padding: 100px;
+        color: white;
+        background-repeat: no-repeat;
+    }
+
+    .about h2{
+        text-transform: uppercase;
+        font-size: 30px;
+        text-shadow: 5px 5px 5px rgb(12, 11, 11);
+     }
+
+     .about p{
+        line-height: 1.5;
+        width: 70%;
+        text-shadow: 5px 5px 5px rgb(12, 11, 11);
+     }
+
+     #contact{
+        margin: 50px 0;
+     }
+
+     #contact address{
+        font-size: 26px;
+        text-transform: uppercase;
+        font-style: normal;
+        text-align: center;
+        color: brown;
+        font-weight: bold;
+     }
+       .maps{
+        width: 100%;
+        height: 450px;
+        margin-top: 25px;
+        text-align: center;
+     }
+     .maps iframe{
+            width: 100%;
+     }
+     footer{
+        background-color: brown;
+        padding: 25px;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px;
+     }
+
+    </style>
+    <title>Gatos</title>
+</head>
+<body>
+    <div id= "principal">
+
+        <header class="header-top">
+            <img class="logotipo"
+            src="https://static.vecteezy.com/ti/vetor-gratis/p1/2861639-animal-cao-logo-design-gr%C3%A1tis-vetor.jpg" alt="Logotipo cachorro">
+            <nav class="header-nav">
+          <ul>
+              <li><a href="#">Portifolio</a></li>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+          </nav>
+        </header>
+
+        <img class="imgmain" src="https://s2.glbimg.com/qsj9O4LxSvKZop_4IaKlAr-4yvk=/e.glbimg.com/og/ed/f/original/2022/01/07/border-collie-pesquisa.jpeg" alt="cachorro marrom">
+        <article class="portifolio">
+            <h1>Cachorros</h1>
+            <h2>Historia dos cachorros</h2>
+            <p>Dogs first appeared about 15,000 years ago, long before the advent of agriculture, and represent the oldest known domestic animal. They emerged from ancient wolves, but scientists aren't entirely sure whether this domestication event happened in Europe or Asia.</p>
+            <p></p>
+            <h2>Tipos de cachorros</h2>
+            <p>Vira-lata.
+Shih tzu.
+Yorkshire.
+Poodle.
+Lhasa apso.
+Buldogue francês.
+Golden retriever.
+Labrador.</p>
+            <p></p>
+        </article>
+        <section class="gallery">
+            <article class="gallery-card">
+                <img class="imgmenu" src="https://super.abril.com.br/wp-content/uploads/2020/07/SI_101_cachorros_cacadores_15.jpg?quality=70&strip=info" alt="">
+                <p class="gallery-title"></p>
+                <p class="gallery-text">
+                    cachorro magro preto/amarelo
+              </p>
+            </article>
+            <article class="gallery-card">
+                <img class="imgmenu" src="https://s.zst.com.br/cms-assets/2021/03/cachorros-pequenos-peludos-4-.png" alt="cachorro">
+                <p class="gallery-title"></p>
+                <p class="gallery-text">
+                    cachorro porte pequeno peludo
+                </p>
+            </article>
+            <article class="gallery-card">
+                <img class="imgmenu" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYYGBgaGBoaGBwYGBgYGBgYGBgZGhgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALEBHAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xABAEAACAQIEAwUFBQYFBAMAAAABAgADEQQSITEFQVEGE2FxgSIykbHwFEJyocEVM1Ky0eEHYoLC8TRzkrMWIyT/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAkEQACAgICAgIDAQEAAAAAAAAAAQIREiEDMUFRBGEUIjKBQv/aAAwDAQACEQMRAD8A4biGKN7CUMxMtLRDC5MLQws5k0iapFXDUbtrNZ8qiAqYfLqNJXQEn2jE3YmjSDhhpK9KhcwuGTpDOCusmyQBQKddYRXU7TLxmIuZGjUtzjxtFUy5igDtGw6sORgkqi95p4espGsTVIpTaWi3hClNWqvoFFz+g85zmJ7WVi5KHIoOgAB+PWP2m4hdVpLsTc+mgH10mEKdppxcarJ+R22el8A4+K1O7WDro1tj0ImxSxV12nlXCMUUcDkdD67fnOuocQKiYcvFjLXkd0WOJ08xP9ZhphyH30mnUrFxKeL9hS/QXhDWhQab2VuIcc7psiC5HvXvv0EZMeHAYbHfqDzBnL1XLMSdSSST4mWeGVsrFTs234ht+o9Z1LjikOUmzoXqwiYoDzmctWK8nEzy2a64q4gatQHwlSg/KPVQycVY3dEKjQQF4wUkyaLYyg6WiSYaINYybPKVWoQYKxLZdzqN4Ku/SUyxMODYQryOitWPWAMI+pjBZSKqhLDUiQYBoakpgxF5cToBtIITe9ibgnY7A2JHhcHXwMHkM1k4/iVRUVwFUBR7CaACwF7TOkaxTOr7EY8AaHUGdpU4kbzzvs1xSpUdRUYELoLKqgXt/CB0noaUhbaZ9aRsujwRq5BlzCcRsQDKL04AUzNsUzkaNzE4noZWeoZVoFibTZw3CWYXO0l4x7BA8JjQJaxHElK2jNwwDTnAfsq8j9XsVKzNY3JMJRokmalLhVhcxOmQSsvQN+CoKeWFp02me+JOa5mhh8beNpiaZz2KbNVboDYeQ0+vOFq0iBcjSBpe+x8/nNpqeZALDabvRrFWjAZ7EEbgztKFmRW6gH4icQ49qdHw/FWRR0FpnyK1ozkai4gDSZXHcX/9WXqwHoNf0l1QGMwePP7eXkP1kccbkKJn0heTqeyQw3BBHpC4BAd42OS038mtaNWmg3Gx1HkdRJVjYSojnKv4R8pMvfSZszwbLPDn9rWWMfVttKlBcpvLDi41mT/qzpUVjTKiOd4UteQdoyNrNKZjaekJnkHEK6XkShgR0RS0nVGkha0G7wQ39EQklaQ7yQZ5TCmEyiWUcCU0aFIisXnZoIAZJ1gKNSwhwb6zJp2dikkX+DvkqL4z1vAUyaanwni1KqVdT/mHznt/Ba2aih8JLVMpzT6PB6VC5hqlFQIPCZi1rGax4aSMxluVM4WYuGNnuBOpwdRmFrTLo4UKZqJiwosBM+R2MTUxfUyLGx3g1qAsSZXxeLUXtJSE/QfFYkgaTCxOLvpJ/b9bHWVa9ibzaMaHGICq15Gk+X2uQF/ht+dpMpHcDI3p9fKaoqijh29okjQ/rL4xLKjJbob89Dpb4zNo1QBY9T/b9YYYm4y+Fgeo+jNBp0U7km81cBUA0bY9JWShpD4dQp11jxJNOk4XmfylHH4XMb33loMDr9eEfQ+ceEV0StGXhxkJBG+kjjiCvr9fKW8RpKeJYFR4fOJqi09FmkbopG1reoJiG8bBEZPX57/KFEykibdhUMJWNhBI0eo15HRb/bbZWzyStIuIkWWZrTLIeDerEqxd3flJB0CzEwTQ7C0j3d4yrVFUmSWTdLQcortBBpCh4MDSSpmTRNWHRpZp1IHKLSKtEOq7LIbUHoZ67wHiKiiv1yE8bDTt+CYpu6UX20/ISGjVaMegqKfGW3xWlhObauc15ap4zlJlFmUUvJeGplPH1spEkapGsz8U5c3ijHYOJCpi2ggxbeQdbRI81r0NIIqWj5JIGJGjKJCnI16PsMfCTLiNX1Qr1EIptk2c4RLuGoi+ojd0Bpzkka03TJL7WlesYSgbjXaBxik6AanqVv8AC9430IVDEES4XA1mTRQ39Pzmiym1vCCbBksS2l7Sg/5GJMWQcp2j4ldImwRbwq+wfAiWUIMp8Le7WOxE0kw2kyk6ZWLa0AA1lpaQIlWpoY61TJM22iNegY2GPIwxqXEqroY/ARlvZotRFpTbE2NpbXEi1pnV1ubxRT8mknFkXrXMdKkH3cQSWRoIzgyJQSDJI5oyqLASFpULwKGWabWiYJ7oJUp2EqSwXvAPvJHJBEF51eAPsCcth9SJ2eAwd0ElmsejmsRRG0qZLGb2J4W51ymV24U9r5ZlHkjXZNKjMd7yAaWKuDfpJ0uGsd9I8412JaM2tI0EvL2LwTJvtL/C+HhlvKc4qNlRVsz1TwjVlsJunBX0kcZwm66SVyRLkjnkS/lA1agubchNHEYXu1sdzMdkudJ0w6tGD7KpYloV0he7Cnx8JB2lCJI/3SbDqIesqhAoCXve4ALE6e1mIz8vdva5lRjeFw730MdWF0QpJd9BpfWauTwlZFtLaPbf18JSVEsyO4C1LkEre9gbEjmL8o2JUi+5B2ubkep1tNLGUgNRz2MzF9rc2uQLnYa7nwkS0Uui7wvDEKWItfbympT0BnpeE7FIqKu9gBf0lun2Spj7onmy+Wm+jaLUUeM4kG+0jY9J7JW7HUj90SeH7JUR90QfzYpdGUo27PHQpA90/CDdD0PwntzdmaNvdEGOzVH+EfCT+cvRCgeHsD0kbnpPcn7KUT9wfCAbsjR/gHwlr5sfRWJ4qwMGt77Ge3p2Voj7g+ETdk6P8A+EPzY+h0eK5CeUh3Rnsw7KUgdEEZuyVM/cEa+bH0JHjeU9JOne+xnrT9kU/hEhT7LIv3RH+ZH0CPMxRNtoJ6R6T1Z+zifwiIdmk6CT+WvRTkjzDCUGzAWncYPCvlE1U4EgIIAl77MBpaXHmUjWCtG62Dp9BKeJw1PoJm4vHtyMyHxLm+881RdGTkkXMVhaebYTN4iUW1rQmRzveVK+CcmVFe2TmjI43WVksN5mcNxxT2TOkrcIuJSbs8b3nXCUFHErNJEVxo3hf2oFFzrYQtfhCohZjbScljcYL2Gwm3Bwrkf0hvkVaDcWxmclj6DkBMlKp12jVq2Y2lRKhBsJ36WkZosVGI1/4lZXudYSq9xaVstt5LGXUp9YRH10HrA0Tmtci/IdZap0hrBCC5xY35C80uF8PaoMxzEHbkP7zIdhYw/7VrKipTKqFA/hubeDbyroEbWI4ZlFtSPzE5rH0gjleR+jGr8XrufacsbcgP0gcVXZwhb3tR420t+vxik0wPb+yfadXwtK5u6oqPfcsgCknztf1mm/Gp5v2Ew4yE63vztO2+zm208blhFTaRMpOzQXjcL+2BMmjgmJ2ltuHmY1EScglXi/SMnETAjAG8RwTchF+o/2Lq8UkanFOkqHAPGGCa8bxC5Fp+KaSScU0lZsCekn9iIG0eMew/YMnELyb8SAldaVoF0hig2iy3FPCVTxLXYx8ojMg6SXFIVsJ+0ZBscTAOvhGTyjVCtlmnVN4U1ZWVDJdy0pNrouMpJaKTCSUCHqJBZIzntiW0TuLRgkdqcMUFsgHEkXEY0YDEMEUljoJSXgLZyna/iLe4GsDuAN/WcPWfn8JqcaxneVGbkTp5THrCezxxwgkbxWhqTamCqDWMdDb4yZsZRZBahEcG8Z1jIbGIDQw1IOpFvavp5kED8/0lqlSfuy9j7Byv1UknKT4EDfrKGDr5WF/dO+1x4i/TedDhswcVVRXK6sGDGm4+9mH8NhfnY9YhpGDn3F4Oo3LlPQOPdjQwWrQUKroGAGwzAG1uW85J+zdUMQRFZWDMfu7dZZwtLO6qCN+e3r4S1xzANSyZlIzJvyzLoR8Mp9ZLs4l66a2N9PMecUn+tkS0ercCwhRFDLYgciSD5XM2UeAw9QZRpbSEDCePK2zGy2lS0k+JlE1JHfnIcR2WhitYQY4dJQKyEnEMmaTY7oIFMUSdpV7wCI1BDEWbNMYrwjPih0meuKFoRMQsWylJ+wxe8gyRd8JBqojTYWS7mSWlBDE2gqmKPKOx5JF1aAkWUCVPtTSD1yYBmjUpqJOwmSmIIj/azAM0JlkDT1hRVBjq0tmNAChitDFxEXELFQItOF7S8fzlqdM+wDYsPvkb2/y/OXe2vGigFBDYsLuRuFOyDoT8vOcSjaT0Pi8H/cv8NIx8sDiBzvKTCXX1JleoLGdzNEVHWMrSbjptAmSUHQ30+EbLAqYbNpf61gAnOk0eDuWOQuyA+PsnoGHTl6zIY6yVOoVII3EAPoTs8n/wCSgGH3Dob399uu3rIYnCJmJHT9f7zN7A8T7/BKdAabuhHQXzrbwyuPhL7OMxH+X6+vCKzsirijj/8AEgKuGSw3qrb/AMHvPP8AAPldSN7idn/iZiBlop1LMf8ASAo/mPwnC4fUxHNy/wBUe0cExOempIIPic35zVyACcx2SpOUU58w03+RF9/UzqGpHpPJ5FUmjlqmRCxsnjHNMxFDMwIOsj5yQRuhjFD0MYmQteOLQyYV7bSQwjdImNRforsBIbyycI8buCOUErFTBxhCFG5iM1MxWgBNrJIlt45XWGFAsNBeGSQJN9AdIiZNEsdY7oJOSCmAIkckOBJd1BNBRDu7CPaW1SJqMumx40Vgmkw+0nGFwyW3dgco5DxadBWqhFLNoFBJPgBeeMcVx7V6ju5JJOl+Q5KPSdHBw5St9IajZUrYlndnYksxuT1Jkw20rQjGenHRqOTIOLiMDJeEdgUXaDYw2ISxgTAZGOI0mogBCKSYSMAOp7F9pzg2dWBam4GYDcMNmHoSD6dJ2FDtnhmLEvl6XVhpblpPJo94mrNY8riqNrtTxf7TXLLfIoyrfmASb25XJ+UoYZZUEt4Y2IMDOTbds9f7Aoe60JItsR8jvadaquDy8pzPZHFkUVzDWwseonRrjxtPKm1m7ITXkK6MeQjphTzgBir7SS1mB3kUh6D/AGY23jIhW43kBWbrE6OedoqXaRWvAXK0RJ6CQVHG7Rdyx3bSFP0Aw13kMssfZfGRfDc7waYsQT0TIdxLRBPOLKwiaBxRWfDx1cpoBCOT1Eg4EWKFVbQAUbm5jdwJZRLxjQg4qicWVmoCR+y+MtpQjdzFSDEMlRBpaDbEJfTWZhrcyYwcDY7ysmDkUe3ONRMFU0N2yoPNmH5WBnjRb68Z6T/iI98Mttu8W/wM8wzT0Pi/xf2OO0EB1hbQKt84VDOpFDOOcnT6xNtIpsY/sQPErfaVHWW6hlVjBjBWjiOxjrABMYO0mY14ARiiigAhLGH6SvLFCAHqXAO02HSktN7owFrkafGdXhsXTdVZSGB5gg854YaxBmjg8eyHMjFT4G05Z/FjLaeyWj2811toBG72525Tg+B9q9ctY+TDn4EcvOdrhKquLqQefpOPk45QdMLZYQneGRyOcAqabx6Z16iZJpBbDPiTK71ydoQoIyU/rrBt2J5EkrNYa3iaqxvrHRgB6+sdmUA3Mf2PfsAof3s0JnJHvSKuBvytCqFN7HaJIFYHlvJKOphxTW9ozAXPhKxCmNT9naQ7w+MkCPG0ICNfnCkPfsgtYmD70wjG3tfKQNK+ukbihOzHOw0krc7ecLkWx6gH/gR1KnW/MXmJnRzXbihfCMRyZTf/AFW/WeVsJ7B2tQHC1Rflt47j1nkRno/Edwa+zSPRC8mjaQDQxOk7CgoMI40Eph4fNdRBAQqGVahjVG13gyYwHvJK0hFACUYxLHtABisaSLSMAFCUntBySC5AgAas+0S1LSNYa6GDPQxAaOGxvImb/C+O1Kdwj6Hk2oE47WHw4YkkH3VLa9Bvbxg0mqYHf4ftZVRrv7YPLa0O/biop9wFel9fjOLVmJCgZr5bWNicwB0v5w1ZylhlY30FwL3IBt+czfBxt3SFo9I4L2uo1ha5pt0e1vRhpN/D4rMLqwYdVIIB6aTwqtTZGIF97c+l9PjL3DuI4lLtSdwBYnKTbwuNpzy+JF7i6FXo9tykgdZGpTNuo3nlX/zXFi6tVa4JBBSnoQbEHTrC4XtpiwQC4bMQPaVSNTbla28j8SVdoKPTu9Oo5HWKmWII8ZyHDe3KElK1KxDgMybLrY3VtRqOvKdrSqKyh0tY2K+II/vMZcMovYUMGI05C0g9Rrt8IbMCdRvblsLc/hE5Gh8ddP1+tpGP2ICKhtz2/OTpVyPkYcJoAd9Lc9Pq0i2GBGgA1/5/WCiOvRHvCdNNj6wJc9RLn2cC2o6HXS17QHdr1/ONxoHZl8j+KTp7fXQx4pguzNGV2i/cv+E/yTyCKKej8TpmkQXP1hBtFFO0oGZaHufGKKCAzjFFFGAooooASTeIfX5xRQAiYhFFABSdHcR4oANW94+cnivebzPziigBd4ZuPx0/mZHh/uv+E/yVIopLEzQpe6nnR/3TT4nuPx0/5RFFIZPksYr92fxt8pm8I/dP/wB+h/7IooodDMWv77/ib+Yy1gffTzEeKbeP8H4Npv3tbyf+cTuOxf8A03+o/wC2KKcvP/JJ1FDn6fpCNsfKKKcZSD0+Xn/WCTc+R+ZiilDBYj3D5/0ldf6fIRRSZCP/2Q==" alt="">
+                <p class="gallery-title"></p>
+                <p class="gallery-text">
+                    pastor alemão preto
+                </p>
+            </article>
+        </section>
+        <article class="about">
+            <h2>Tudo sobre cachorro</h2>
+            <p>The dog is a quadrupedal mammal (that is, it walks on all fours) that stands out for having a tail and a covering of fur all over its body. However, nowadays, thanks to the different canine breeds that exist, we find dogs of all sizes, shapes and colors.</p>
+            <p></p>
+        </article>
+        <div id="contact">
+            <address>
+                Ligue me para fazer sites
+                <br>
+                987654321
+            </address>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28878.127840569763!2d-49.134934015860715!3d-25.21111332319534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcc153d5264611%3A0xdd193cb59e9f8561!2sBocai%C3%BAva%20do%20Sul%2C%20PR%2C%2083450-000!5e0!3m2!1spt-BR!2sbr!4v1622641309172!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <footer>
+            Autor:
+            <br>
+          Elis n 11 -Evelyn n 40 1b
+        </footer>
+    </div>
+</body>
+</html>
